@@ -64,3 +64,15 @@ h2 {
 .underline{
 	text-decoration: underline;
 }
+ul{
+	margin-top: 30px;
+	list-style-type:disc;
+}
+li{
+	line-height: 1.2em;
+}
+ol{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	list-style-type: decimal;
+}
