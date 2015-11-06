@@ -1,0 +1,31 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+	line-height: 30px;
+}
+ul{
+	padding: 0px;
+}
+
+.container{
+	text-align: center;
+	height: 100%;
+	margin-top: 15%;
+	border: 3px dashed #9a1414;
+	background-color: #d0d0d0;
+}
+a{
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 30px;
+}
+a:hover{
+	color: #000;
+}
+li:nth-child(odd){
+	background-color: #fff689;
+}
