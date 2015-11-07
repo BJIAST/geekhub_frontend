@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #E8E8E8;
+}
+.container{
+	width: 85%;
+	margin:auto;
+	margin-top: 2%;
+}
+.table1{
+	margin:auto;
+	width: 100%;
+}
+table th{
+	font-size: 16px;
+	font-weight: bold;
+}
+table, td, th {
+	border: 1px double black;
+}
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: grey;
+}
+.table2{
+	margin:auto;
+	margin-top:30px;
+	width: 800px;
+}
+.table2	td{
+	width: 300px;
+	padding: 3px;
+}
+.table2 th{
+	padding: 3px;
+}
+.table3{
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 3px ridge #6a6a6a;
+	width: 800px;
+}
+table th,td{
+	padding: 5px;
+}

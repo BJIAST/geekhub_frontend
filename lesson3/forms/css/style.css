@@ -1,0 +1,85 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #454545;
+}
+li{
+	list-style-type: none;
+}
+.container{
+	margin: 0 auto;
+	width: 85%;
+	background-color: #ffffff;
+	padding:0.01% 1%;
+}
+h1{
+	margin:0.67em 0;
+	font-size: 32px;
+	font-weight:bold;
+}
+h2{
+	margin: 0.67em 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+fieldset{
+	margin-top: 10px;
+	padding:20px 50px;
+	margin-bottom: 10px;
+	border: 2px solid #7A7A7A;
+}
+fieldset legend{
+	margin-left: -40px;
+}
+ul{
+	margin-bottom: 20px;
+}
+.short li{
+	margin-bottom: 10px;
+}
+.short input[type="text"]{
+	width:300px;
+}
+input[type="text"]{
+	background-color: #cdcdcd;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+.short input[name="age"]{
+	width:55px;
+}
+legend,p,span{
+	font-weight: bold;
+}
+.finish input[type="text"]{
+	width: 300px;
+}
+input[type="submit"]{
+	margin-bottom: 1.5%;
+	padding: 10px;
+	cursor: pointer;
+}
+input[type="reset"]{
+	margin-bottom: 1.5%;
+	padding: 10px;
+	cursor: pointer;
+}
+.refresh{
+	margin-bottom: 1.5%;
+	padding: 10px;
+	cursor: pointer;
+	float: right;
+}
+a{
+	color: #00be46;
+}
+span{
+	display: block;
+	margin-top: 10px;	
+}	
+.email{
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+	
