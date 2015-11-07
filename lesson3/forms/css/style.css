@@ -28,8 +28,8 @@ fieldset{
 	margin-bottom: 10px;
 	border: 2px solid #7A7A7A;
 }
-fieldset legend{
-	margin-left: -40px;
+legend {
+	margin-left:-40px;
 }
 ul{
 	margin-bottom: 20px;
