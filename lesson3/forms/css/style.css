@@ -12,10 +12,27 @@ li{
 	background-color: #ffffff;
 	padding:0.01% 1%;
 }
+h1{
+	margin:0.67em 0;
+	font-size: 32px;
+	font-weight:bold;
+}
+h2{
+	margin: 0.67em 0;
+	font-size: 24px;
+	font-weight: bold;
+}
 fieldset{
 	margin-top: 10px;
-	padding-top: 0px;
+	padding:20px 50px;
 	margin-bottom: 10px;
+	border: 2px solid #7A7A7A;
+}
+fieldset legend{
+	margin-left: -40px;
+}
+ul{
+	margin-bottom: 20px;
 }
 .short li{
 	margin-bottom: 10px;
