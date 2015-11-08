@@ -1,0 +1,31 @@
+body{
+	background-color: #b7b7b7;
+	color: #fff;
+	font-size: 26px;
+}
+.container{
+	margin: 0 auto;
+	margin-top: 8%;
+	padding-top: 15%;
+	width: 80%;
+	height: 250px;
+	text-align: center;
+	border: 1px	dashed #2f1faf;
+	background-color: #f18d37;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px;
+}
+a:hover{
+color: #000;
+}
+  ul {
+    margin: 0; 
+    padding: 4px; 
+   }
+ ul li {
+    display: inline; 
+   }
