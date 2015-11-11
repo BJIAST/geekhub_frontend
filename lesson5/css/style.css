@@ -2,6 +2,14 @@
 	font-family:'VersaSansCon'; 
 	src: url('../fonts/VersaSansCon-Light.ttf');
 }
+body {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: 400;
+}
+.right {
+	float: right;
+}
 .wrapper {
 	width: 1000px;
 	background: #f4f4f4;
@@ -19,7 +27,12 @@
 	font-weight: bold;
 	padding-top: 28px;
 	font-size: 18px;
+	color: #000;
 }
+.header a {
+	text-decoration: none;
+}
+
 
 /*------------------ sidebar ----------------------*/
 .main {
@@ -28,6 +41,7 @@
 }
 .left-sidebar {
 	width: 120px;
+	overflow: hidden;
 }
 .description span {
 	font-family: Tahoma;
@@ -42,8 +56,48 @@
 	height: 63px;
 	padding-bottom: 20px;
 }
-h3 {
-	font-family: Tahoma;
+.left-sidebar .sidebar-tittle {
 	font-size: 11px;
 	font-weight: 700;
+	line-height: 12px;
+}
+ul.nav {
+	height: 100%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+ul.nav li {
+	background-color: #e8e8e8;
+	width: 100%;
+	height: 17px;
+	padding-top: 3px;
+	margin-bottom: 2px;
+}
+ul.nav li a{
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+ul.nav li:hover {
+	background-color: #C5C5C5;
+}
+ul.nav span {
+	font-size: 10px;
+	font-weight: 400;
+	color: #838383;
+}
+input[type="search"] {
+	margin: 5px 0;
+	width: 118px;
+	border: 1px solid #e8e8e8;	
+	height: 22px;
+
+}
+
+/*------------------- footer ----------------*/
+.footer {
+	width: 100%;
+	height: 65px;
+	background-color: #fff;
+	padding-top: 20px;
 }
