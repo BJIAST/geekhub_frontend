@@ -218,29 +218,28 @@ input[type="search"] {
 	float: left;
 	width: 270px;
 }
-.social {
-	margin-bottom: 62px;
-}
-.social span {
-	font-weight: bold;
-}
-.twitter {
-	width: 80px;
-	margin-left: 30px;
+.social ul li {
 	float: left;
-}
-.rss {
 	width: 80px;
-	float: left;
-	padding-left: 70px;
-	
+	padding-left: 40px;
+	padding-right: 15px;
 }
 .social img {
 	float: left;
 	-webkit-filter: grayscale(1); 
 	filter: gray;   
 	filter: grayscale(1); 
-
+}
+.social img:hover {
+	-webkit-filter: grayscale(0); 
+	filter: none;   
+	filter: grayscale(0); 
+}
+.social {
+	margin-bottom: 62px;
+}
+.social span {
+	font-weight: bold;
 }
 .rside-text {
 	margin-top: 20px;
@@ -251,9 +250,7 @@ input[type="search"] {
 	width: 50%;
 	margin-right: 20px;
 }
-.rside-right {
 
-}
 .rside-text span {
 	color:  #191919;
 	font-size: 11px;
