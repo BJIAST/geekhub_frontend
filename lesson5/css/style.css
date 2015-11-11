@@ -38,9 +38,12 @@ body {
 .main {
 	padding: 0 20px;
 	padding-top: 25px;
+	overflow: hidden;
+	width: 100%;
 }
 .left-sidebar {
 	width: 120px;
+	float: left;
 	overflow: hidden;
 }
 .description span {
@@ -56,10 +59,10 @@ body {
 	height: 63px;
 	padding-bottom: 20px;
 }
-.left-sidebar .sidebar-tittle {
+.sidebar-title {
 	font-size: 11px;
 	font-weight: 700;
-	line-height: 12px;
+	line-height: 23px;
 }
 ul.nav {
 	height: 100%;
@@ -77,6 +80,7 @@ ul.nav li a{
 	display: block;
 	color: #000;
 	text-decoration: none;
+	font-weight: 100;
 }
 ul.nav li:hover {
 	background-color: #C5C5C5;
@@ -85,6 +89,7 @@ ul.nav span {
 	font-size: 10px;
 	font-weight: 400;
 	color: #838383;
+	padding-top: 3px;
 }
 input[type="search"] {
 	margin: 5px 0;
@@ -94,10 +99,57 @@ input[type="search"] {
 
 }
 
+/*------------------- content ----------------*/
+.content {
+	width: 500px;
+	float: left;
+	margin: 3px 20px;
+
+}
+.content h2.title {
+	font-family: VersaSansCon;
+	color: #191919;
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.futured-post {
+	margin-bottom: 60px;
+
+} 
+.futured-post img { 
+	width: 500px;
+	height: 250px;
+	margin-top: 15px;
+}
+.post {
+	margin-top: 30px;
+	color:  #555555;
+	font-size: 12px;
+	line-height: 18px;
+
+}
+.post-footer {
+	margin-top: 20px;
+}
+.block {
+	display: block;
+	line-height: 24px;
+	color:  #191919;
+	line-height: 18px;
+}
+.keyword {
+	color:  #888888;
+	line-height: 18px;
+}
+.keyword:hover {
+	text-decoration: underline;
+}
 /*------------------- footer ----------------*/
 .footer {
 	width: 100%;
 	height: 65px;
 	background-color: #fff;
 	padding-top: 20px;
+	float: left;
 }
