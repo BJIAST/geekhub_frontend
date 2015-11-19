@@ -7,25 +7,20 @@ body {
 	font-size: 11px;
 	font-weight: 400;
 }
-.right {
-	float: right;
-}
-.wrapper {
-	width: 1000px;
-	background: #f4f4f4;
+.header, .main, .footer {
 	margin: 0 auto;
+	width: 1000px;
+}
+.content-section {
+	background: #f4f4f4;
 }
 /*---------------------- header ------------------*/
 .header {
-	width: 100%;
-	height: 50px;
-	background: #fff;
+	padding: 25px 0 10px;
 }
 .logo {
 	font-family:VersaSansCon;
 	font-weight: bold;
-	padding: 0 20px;
-	padding-top: 28px;
 	font-size: 18px;
 	color: #000;
 }
@@ -36,19 +31,14 @@ body {
 
 /*------------------ sidebar ----------------------*/
 .main {
-	padding: 0 20px;
-	padding-top: 25px;
 	overflow: hidden;
-	width: 100%;
 }
 .left-sidebar {
 	width: 120px;
 	float: left;
 	overflow: hidden;
 }
-.description span {
-	font-family: Tahoma;
-	display: block;
+.description p {
 	font-size: 11px;
 	line-height: 16px;
 	font-weight: 400;
@@ -56,28 +46,23 @@ body {
 }
 .description img {
 	width: 120px;
-	height: 63px;
 	padding-bottom: 20px;
+	height: auto;
 }
 .sidebar-title {
-	font-size: 11px;
 	font-weight: 700;
 	line-height: 23px;
 }
 ul.nav {
-	height: 100%;
-	margin-top: 5px;
-	margin-bottom: 15px;
+	margin: 5px 0 15px;
 }
-ul.nav li {
+ul.nav li {	
+
 	background-color: #e8e8e8;
-	width: 100%;
-	height: 17px;
-	padding-top: 3px;
+	line-height: 20px;
 	margin-bottom: 2px;
 }
 ul.nav li a{
-	display: block;
 	color: #000;
 	text-decoration: none;
 	font-weight: 100;
@@ -86,27 +71,35 @@ ul.nav li:hover {
 	background-color: #C5C5C5;
 }
 ul.nav span {
+	float: right;
 	font-size: 10px;
 	font-weight: 400;
 	color: #838383;
-	padding-top: 3px;
+	padding-top: 1px;
 }
 input[type="search"] {
 	margin: 5px 0;
 	width: 118px;
 	border: 1px solid #e8e8e8;	
-	height: 22px;
-
+	line-height: 22px;
 }
 
 /*------------------- content ----------------*/
+
 .content {
 	width: 500px;
 	float: left;
 	margin: 3px 20px;
 
 }
-.content h2.title {
+.futured-post ul {
+	
+}
+.futured-post li {
+	display: inline-block;
+}
+.content h1.title {
+	overflow: hidden;
 	font-family: VersaSansCon;
 	color: #191919;
 	margin-top: 10px;
@@ -117,9 +110,10 @@ input[type="search"] {
 	margin-bottom: 60px;
 
 } 
+
 .futured-post img { 
 	width: 500px;
-	height: 250px;
+	height: auto;
 	margin-top: 15px;
 }
 .fut-post {
@@ -159,7 +153,7 @@ input[type="search"] {
 .text-side span {
 	line-height: 18px;
 }
-.text-side h3 {
+.text-side h2 {
 	font-family: VersaSansCon;
 	color:  #191919;
 	font-size: 18px;
@@ -238,8 +232,11 @@ input[type="search"] {
 .social {
 	margin-bottom: 62px;
 }
-.social span {
+.social h3 {
 	font-weight: bold;
+}
+.social span .foll {
+	display: block;
 }
 .rside-text {
 	margin-top: 20px;
@@ -251,7 +248,7 @@ input[type="search"] {
 	margin-right: 20px;
 }
 
-.rside-text span {
+.rside-text h3 {
 	color:  #191919;
 	font-size: 11px;
 	font-weight: 700;
@@ -263,9 +260,5 @@ input[type="search"] {
 }
 /*------------------- footer ----------------*/
 .footer {
-	width: 100%;
-	height: 65px;
-	background-color: #fff;
-	padding-top: 20px;
-	float: left;
+	padding: 20px 0 15px;
 }
