@@ -10,6 +10,7 @@ body {
 .header, .main, .footer {
 	margin: 0 auto;
 	width: 1000px;
+	padding-top: 20px;
 }
 .content-section {
 	background: #f4f4f4;
@@ -92,9 +93,6 @@ input[type="search"] {
 	margin: 3px 20px;
 
 }
-.futured-post ul {
-	
-}
 .futured-post li {
 	display: inline-block;
 }
@@ -125,19 +123,6 @@ input[type="search"] {
 }
 .post-footer {
 	margin-top: 20px;
-}
-.block {
-	display: block;
-	line-height: 24px;
-	color:  #191919;
-	line-height: 18px;
-}
-.keyword {
-	color:  #888888;
-	line-height: 18px;
-}
-.keyword:hover {
-	text-decoration: underline;
 }
 .post {
 	width: 100%;
@@ -172,8 +157,17 @@ input[type="search"] {
 .img-side img {
 
 }
-.posts li {
+ul li.li-post {
 	margin-bottom: 60px;
+}
+.post-footer ul li {
+	display: inline;
+}
+.post-footer a {
+color: #000;
+}
+.post-footer span {
+	color: #888888;
 }
 /*------------------ pagination ---------------*/
 .pagination-flickr li {
@@ -213,10 +207,9 @@ input[type="search"] {
 	width: 270px;
 }
 .social ul li {
-	float: left;
+	padding-right: 50px;
 	width: 80px;
-	padding-left: 40px;
-	padding-right: 15px;
+	float: left;
 }
 .social img {
 	float: left;
@@ -255,7 +248,7 @@ input[type="search"] {
 	line-height: 16px;
 }
 .rside-text p {
-	color:  #555555;
+	color: #555555;	
 	line-height: 16px;
 }
 /*------------------- footer ----------------*/
