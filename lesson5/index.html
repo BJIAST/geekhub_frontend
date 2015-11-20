@@ -7,73 +7,90 @@
 	<title>First template</title>
 </head>
 <body>
-	<div class="wrapper">
+	<div class="header-section">
 		<div class="header">
-			<a href="#"><h1 class="logo">Minimal Personal</h1></a>
+			<a href="#"><span class="logo">Minimal Personal</span></a>
 		</div>
+	</div>
+	<div class="content-section">
 		<div class="main">
 			<div class="left-sidebar">
 				<div class="description">
-					<span>A short description or a short information about author goes here.</span>
+					<p>A short description or a short information about author goes here.</p>
 					<img src="http://lorempixel.com/120/63/technics" alt="img1">
 				</div>
 				<div class="category">
 					<h3 class="sidebar-title">Categories</h3>
 					<ul class="nav">
 						<li>
-							<a href="#">Lifestyle <span class="right">51</span></a>
-						</li>
-						<li>
-							<a href="#">Travel <span class="right">19</span></a>
-						</li>
-						<li>
-							<a href="#">My Home <span class="right">20</span></a>
-						</li>
-						<li>
-							<a href="#">Work <span class="right">23</span></a>
-						</li>
-						<li>
-							<a href="#">Family <span class="right">8</span></a>
-						</li>
-					</ul>
-					<h3 class="sidebar-title">Pages</h3>
-					<ul class="nav">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Get in touch</a></li>
-					</ul>
-					<div class="search">
-						<form action="#">
-							<fieldset>
-								<label class="sidebar-title">Search</label>
-								<input type="search">
-							</fieldset>
-						</form>
+							<li>
+								<a href="#">Lifestyle<span>51</span></a>
+							</li>
+							<li>
+								<a href="#">Travel<span>19</span></a>
+							</li>
+							<li>
+								<a href="#">My Home<span>20</span></a>
+							</li>
+							<li>
+								<a href="#">Work<span>23</span></a>
+							</li>
+							<li>
+								<a href="#">Family<span>8</span></a>
+							</li>
+						</ul>
+						<h3 class="sidebar-title">Pages</h3>
+						<ul class="nav">
+							<li><a href="#">About</a></li>
+							<li><a href="#">Get in touch</a></li>
+						</ul>
+						<div class="search">
+							<form action="#">
+								<fieldset>
+									<label class="sidebar-title">Search</label>
+									<input type="search">
+								</fieldset>
+							</form>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="content">
-				<div class="futured-post">
-					<span>Lifestyle, Travel</span>
-					<h2 class="title">Mauris eget orci id leo</h2>
-					<img src="http://lorempixel.com/500/250/technics" alt="img2">
-					<p class="fut-post">Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor 
-						fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet. 
-					</p>
-					<p class="post-footer">
-						<span class="block">
-							<span class="keyword">Share:</span> Twitter, Facebook, Digg,  Delicious.
-						</span>
-						<span class="keyword">Date:</span> June 5th, 2011; Tags: tortorm, non, interdum;
-						<span class="keyword">Comments:</span> 1
+				<div class="content">
+					<div class="futured-post">
+						<ul>
+							<li>Lifestyle</li>
+							<li>,</li>
+							<li>Travel</li>
+						</ul>
+						<h1 class="title">Mauris eget orci id leo</h1>
+						<img src="http://lorempixel.com/500/250/technics" alt="img2">
+						<p class="fut-post">Mauris eget orci id leo rhoncus volutpat. Nullam auctor lorem. Duis id eros sed dolor 
+							fringilla lobortis. Etiam ornare. Donec imperdiet turpis vulputate massa tempor laoreet. 
+						</p>
+						<div class="post-footer">
+							<ul>
+								<li><span>Share:</span></li>
+								<li><a href="#">Twitter,</a></li>
+								<li><a href="#">Facebook,</a></li>
+								<li><a href="#">Digg,</a></li>
+								<li><a href="#">Delicious.</a></li>
+							</ul>
+							<ul>
+								<li><span>Date:</span> June 5th, 2011; </li>
+								<li><span>Tags: </span><a href="#">tortorm</a> 
+									<a href="#">non</a>, <a href="#">interdum</a>; 
+								</li>
+								<li><span>Comments:</span><a href="#">1</a></li>
+							</ul>
+						</div>
 					</p>
 				</div>
 				<div class="posts">
 					<ul>
-						<li>
+						<li class="li-post">
 							<div class="post">
 								<div class="text-side">
 									<span>My Home, Family</span>
-									<h3>Mauris eget orci id leo</h3>
+									<h2>Mauris eget orci id leo</h2>
 									<p>
 										Mauris eget orci id leo rhoncus volutpat. Nullam 
 										auctor lorem. Duis id eros sed dolor fringilla 
@@ -85,14 +102,19 @@
 									<img src="http://lorempixel.com/240/125/technics" alt="img3">
 								</div>
 							</div>
-							<span class="keyword">Date:</span> June 5th, 2011; Tags: tortorm, non, interdum;
-							<span class="keyword">Comments:</span> 1
+							<div class="post-footer">
+								<ul>
+									<li><span>Date:</span> June 5th, 2011; </li>
+									<li><span>Tags: </span><a href="#">tortorm</a>, <a href="#">non</a>, <a href="#">interdum</a>; </li>
+									<li><span>Comments:</span><a href="#">1</a></li>
+								</ul>
+							</div>
 						</li>
 						<li>
 							<div class="post">
 								<div class="text-side">
 									<span>Work</span>
-									<h3>Mauris eget orci id leo</h3>
+									<h2>Mauris eget orci id leo</h2>
 									<p>
 										Mauris eget orci id leo rhoncus volutpat. Nullam 
 										auctor lorem. Duis id eros sed dolor fringilla 
@@ -104,8 +126,13 @@
 									<img src="http://lorempixel.com/240/125/sports" alt="img4">
 								</div>
 							</div>
-							<span class="keyword">Date:</span> June 5th, 2011; Tags: tortorm, non, interdum;
-							<span class="keyword">Comments:</span> 1
+							<div class="post-footer">
+								<ul>
+									<li><span>Date:</span> June 5th, 2011; </li>
+									<li><span>Tags: </span><a href="#">tortorm</a>, <a href="#">non</a>, <a href="#">interdum</a>; </li>
+									<li><span>Comments:</span><a href="#">1</a></li>
+								</ul>
+							</div>
 						</li>	
 					</ul>
 				</div>
@@ -125,38 +152,28 @@
 			</div>
 			<div class="right-sidebar">
 				<div class="social">
-				<ul>
-					<li>
-						<a href="#"><img src="images/Layer 7.png" height="32" width="32" alt="img5"></a>
-						<span>Twitter</span>
-						<p>599 followers</p>
-					</li>
-					<li>
-						<a href="#"><img src="images/Layer 6.png" height="32" width="32" alt="img6"></a>
-						<span>RSS</span>
-						<p>109 readers</p>
-					</li>
-				</ul>
-					<!-- <div class="twitter">
-						<img src="images/Layer 7.png" height="32" width="32" alt="img5">
-						<span>Twitter</span>
-						<p>599 followers</p>
-					</div>
-					<div class="rss">
-						<img src="images/Layer 6.png" height="32" width="32" alt="img6">
-						<span>RSS</span>
-						<p>109 readers</p>
-					</div> -->
+					<ul>
+						<li>
+							<a href="#"><img src="images/Layer 7.png" height="32" width="32" alt="img5"></a>
+							<h3>Twitter</h3>
+							<span class="foll">599 followers</span>
+						</li>
+						<li>
+							<a href="#"><img src="images/Layer 6.png" height="32" width="32" alt="img6"></a>
+							<h3>RSS</h3>
+							<span class="foll">109 readers</span>
+						</li>
+					</ul>
 				</div>
 				<img src="http://lorempixel.com/300/250/technics" alt="img7">
 				<div class="rside-text">
 					<div class="rside-left">
-						<span>Sidebar 160</span>
+						<h3>Sidebar 160</h3>
 						<p>Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin.
 						</p>
 					</div>
 					<div class="rside-right">
-						<span>Sidebar 120</span>
+						<h3>Sidebar 120</h3>
 						<p>
 							Mauris sit amet mi. Vivamus commodo. Nam pharetra suscipit leo. Morbi ut turpis. Nulla facilisi. Duis non lacus. Nulla nonummy nunc ac augue. Sed vel turpis sit amet eros iaculis sollicitudin. Morbi sollicitudin.
 						</p>
@@ -164,11 +181,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer">
-			<div class="copyright">
-				2015 &copy; Сайт работает на <span>HTML4.01</span>
-			</div>
-		</div>
 	</div>
+</div>
+<div class="footer-section">
+	<div class="footer">
+		2015 &copy; Сайт работает на <span>HTML4.01</span>
+	</div>
+</div>
 </body>
 </html>
