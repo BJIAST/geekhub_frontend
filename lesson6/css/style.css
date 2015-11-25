@@ -16,9 +16,6 @@ a {
 	text-decoration: none;
 	color: #646464;
 }
-.block {
-	display: block;
-}
 .wrapper {
 	width: 63.3%;
 	margin: 0 auto;
@@ -62,7 +59,12 @@ a {
 	text-align: center;
 }
 .authoriz li {
-	display: inline-block;
+	display: inline;
+	padding: 0 6px;
+	border-right: 2px solid #747474; 
+}
+.authoriz li:last-child {
+	border: 0;
 }
 .authoriz li a {
 	color:  #747474;
@@ -84,13 +86,6 @@ a {
 .logo-link {
 	float: left;
 }
-.logo span {
-	font-family: AFKlampenborg;
-	color:  #939598;
-	font-size: 22px;
-	line-height: 20px;
-	padding-top: 20px;
-}
 .tagline {
 	overflow: hidden;
 	float: left;
@@ -98,7 +93,7 @@ a {
 	padding-bottom:34px;
 	text-align: right;
 }
-.tagline h1 {
+.tagline h2 {
 	font-family: Helios;
 	color:  #646464;
 	font-size: 15px;
@@ -165,21 +160,20 @@ h3 {
 .sidebar-nav ul li {
 	width: 100%;
 	border-bottom: 1px solid #c5c5c4;
-	padding: 8px 0;
+	padding: 8px 0;	
+}
+.sidebar-nav ul li a {
+	padding-left: 15px;
 }
 .sidebar-nav ul li a:hover{
 	color: #45b8fb;
 }
-.sidebar-nav ul li.last-link {
-	border-bottom: none;
-}
 .fa {
+	display:inherit;
 	padding-right: 5px;
-	color: #6c6c6c;
 }
 .fa-arrow-right {
 	color: #03a7fe;
-	margin-right: 12px;
 }
 .social-rss {
 	padding: 5px 20px;
@@ -208,8 +202,10 @@ h3 {
 }
 /*---------------content---------------*/
 .content-section {
-	height: 1000px;
+	padding-bottom: 20px;
+
 	border-bottom: 1px solid #cbcac9;
+	overflow: hidden;
 }
 .content {
 	float: left;
@@ -218,7 +214,7 @@ h3 {
 	margin-left: 2%;
 	padding-top: 20px;
 }
-.content h2 {
+.content h1 {
 	font-size: 26px;
 	margin-bottom: 14px;
 }
@@ -266,11 +262,11 @@ h3 {
 }
 /*-----------------fooooter---------*/
 .footer-section	{
+	overflow: hidden;
 	height: 50px;
 }
 .footer {
 	float: right;
-	overflow: hidden;
 	width: 460px;
 	margin-right: 30px;
 	padding: 5px 18px;
