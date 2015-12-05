@@ -7,5 +7,6 @@
 5) Lesson5 - First Template - Done!<br>
 6) Lesson6 - Managers to Manager - Done!<br>
 7) Lesson7 - Panakeia - Done!
+8) Lesson8 - UI Brash - Done!
 
 
