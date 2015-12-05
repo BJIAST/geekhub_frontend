@@ -11,8 +11,12 @@
 	font-family: "ProximaNova";
 	src: url("../fonts/proximanovacond-regular.otf");
 }
+body {
+	font-family: 'Roboto', sans-serif;
+}
 .block {
 	display: block;
+	font-family: 'Roboto',sans-serif;
 }
 .wrapper{
 	text-align: center;
@@ -20,29 +24,49 @@
 	width: 1256px;
 	margin: 0 auto;
 }
-
-
+a.btn {
+	text-decoration: none;
+	color: #612316;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	background: #fff;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	padding: 15px 50px;
+}
+h1,h2,h3 {
+	color: white;
+	font-family: RobotoSlab;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	padding-top: 86px;
+}
+h2,h3{
+	line-height: 24px;
+}
+p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
 /*----------------header------------------*/
-
+header .wrapper {
+	padding: 48px 0;
+}
 
 header.static {
-	height: 148px;
-	width: 100%;
-	top: 0;
 	background: #edeff1;
 }
 header.fixed {
 	position: fixed;
-	z-index: 99999;
-	left: 0;
-	top: 0;
+	z-index: 2;
 	width: 100%;
-	height: 148px;
-	margin: 0;
 	background: #edeff1;
 }
 header.fixed .active {
-	height: 148px;
 	text-align: center;
 }
 .top-nav li.selected a{
@@ -57,20 +81,18 @@ header.fixed .active {
 .logo {
 	font-family: RobotoSlab;
 	float: left;
-	overflow: hidden;
-	padding: 50px 0 0 47px;
-
 }
 header a {
 	text-decoration: none;
 	color: #31353e;
 
 }
-header h1 {
+header .logo div {
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 36px;
 }
+
 header span {
 	color: #dd4b2b;
 	font-size: 16px;
@@ -82,13 +104,14 @@ header span {
 .top-nav {
 	font-family: RobotoSlab;
 	text-align: right;
-	padding: 68px 0 0 43px;
+	padding: 15px 50px;
+	overflow: hidden;
 }
 .top-nav ul li {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 24px;
-	display: inline;
+	display: inline-block;
 }
 .top-nav ul li a {
 	color: #31353e;
@@ -106,7 +129,7 @@ header span {
 
 
 #main {
-	background: url(../images/section1.png) no-repeat;
+	background: url(../images/section1.jpg) no-repeat;
 	background-size: cover;
 	background-position: 50% 100%;
 	height: 1325px;
@@ -124,7 +147,7 @@ header span {
 	font-weight: 300;
 	margin-top: 250px;
 }
-.main h3 {
+.main div {
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 	color: white;
 	font-family: RobotoSlab;
@@ -132,49 +155,19 @@ header span {
 	font-size: 30px;
 	font-weight: 700;
 }
-.main article h3 {
-	font-family: RobotoSlab;
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 24px;
-}
 .posts {
 	overflow: hidden;
-	margin-top: 220px;
+	margin: 220px 0 0 80px;
 }
 .posts h2{
-	font-family: RobotoSlab;
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 24px;
 	margin: 20px 0;
 }
 .posts article{
 	float: left;
-	width:300px;
-	margin-right: 90px;
+	width:30%;
+	margin-right: 38px;
 	margin-bottom: 120px;
-}
-.posts article p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 30px;
-}
-.posts article:first-child {
-	margin-left: 80px;
-}
-.wrapper a.btn {
-	text-decoration: none;
-	color: #612316;
-	font-family: RobotoSlab;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 30px;
-	background: #fff;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 27px;
-	padding: 15px 50px;
+	box-sizing: border-box;
 }
 
 /*------------section-news--------------*/
@@ -189,14 +182,11 @@ header span {
 }
 #our-news h1 {
 	color: #31353e;
-	font-family: RobotoSlab;
-	font-size: 30px;
-	font-weight: 700;
 	line-height: 24px;
 	padding: 84px 0;
 }
 #our-news .posts {
-	margin: 0;
+	margin: 0 0 0 80px;
 }
 #our-news .posts p {
 	margin-bottom: 40px;
@@ -222,21 +212,11 @@ a.btn:hover {
 	background-position: 50% 100%;
 }
 #newsletter h1 {
-	color: white;
-	font-family: RobotoSlab;
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 48px;
 	padding-top: 86px;
 }
 #newsletter .block {
 	margin: 0 auto;
 	width: 533px;
-	color: white;
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 24px;
 	margin-bottom: 40px;
 }
 #newsletter .subscribe {
@@ -306,10 +286,7 @@ a.btn:hover {
 #product article p {
 	text-align: left;
 	color: #191b29;
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	font-weight: 300;
-	line-height: 30px;
 }
 #product article .art-info {
 	width: 50%;
@@ -335,12 +312,15 @@ a.btn:hover {
 	overflow: hidden;
 	width: 50%;
 }
+#product .flr {
+	overflow: hidden;
+}
 #product .flr .art-image {
 	float: left;
 }
 #product .flr .art-info {
 	width: 46%;
-	float: none;
+	float: right;
 	padding: 0 20px;
 }
 #product .flr a.btn {

@@ -1,7 +1,7 @@
 // navigation
 $(document).ready(function(){
 
-        var $menu = $("header");
+        var $menu = $("#header");
 
         $(window).scroll(function(){
           if ($(window).width() >= 1300) {
