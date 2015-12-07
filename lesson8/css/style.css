@@ -78,8 +78,8 @@ a.btn:hover {
     background-position: 50% 100%;
 }
 #header .wrapper {
-   margin: 0 auto; 
-   padding: 34px 0 0 98px;
+   margin: 0 auto;
+   padding: 34px 0; 
 }
 header div {
     font-size: 30px;
