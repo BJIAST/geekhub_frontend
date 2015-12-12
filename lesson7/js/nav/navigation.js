@@ -4,14 +4,14 @@ $(document).ready(function(){
         var $menu = $("#header");
 
         $(window).scroll(function(){
-          if ($(window).width() >= 1300) {
-            if ( $(this).scrollTop() > 1340 && $menu.hasClass("static") ){
+          if ($(window).width() >= 960) {
+            if ( $(this).scrollTop() > 1000 && $menu.hasClass("static") ){
                 $menu.fadeOut('fast',function(){
                     $(this).removeClass("static")
                            .addClass("fixed")
                            .fadeIn('slow');
                 });
-            } else if($(this).scrollTop() < 1340 && $menu.hasClass("fixed")) {
+            } else if($(this).scrollTop() < 1000 && $menu.hasClass("fixed")) {
                 $menu.fadeOut('fast',function(){
                     $(this).removeClass("fixed")
                            .addClass("static")
