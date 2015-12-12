@@ -1,0 +1,60 @@
+@media screen and (min-width: 320px) and (max-width: 486px) {
+	.section-logo {
+		width: 90%;
+	}
+	#portfolio .projects ul li {
+		width: 80%;
+		margin: 0 15px;
+		float: none;
+	}
+		#services article {
+		width: 80%;
+		margin: 15px auto;
+		float: none;
+	}
+}
+@media screen and (min-width: 487px) and (max-width: 767px) {
+	#portfolio .projects ul li {
+		width: 47.4%;
+	}
+		#services article {
+		width: 46.6%;
+		margin:0 10px 15px 0;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:965px) {
+	.about .about-text {
+		padding: 15px 0;
+	}
+}
+@media screen and (max-width: 768px) {
+	header nav {
+		display: none;
+	}
+}
+@media screen and (max-width: 964px) {
+	.about {
+		padding: 10px 10px;
+	}
+	.about .about-img {
+		float: none;
+	}
+	.about .about-text {
+		text-align: center;
+		padding: 10px 0;
+	}
+	.contact-info {
+		float: none;
+		width: 100%;
+	}
+	.contact-form {
+		width: 100%;
+		margin-top: 15px;
+	}
+}
+@media screen and (max-width: 1174px) {
+	.wrapper {
+		width: 100%;
+	}
+
+}
