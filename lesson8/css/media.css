@@ -7,7 +7,7 @@
 		margin: 0 15px;
 		float: none;
 	}
-		#services article {
+	#services article {
 		width: 80%;
 		margin: 15px auto;
 		float: none;
@@ -17,7 +17,7 @@
 	#portfolio .projects ul li {
 		width: 47.4%;
 	}
-		#services article {
+	#services article {
 		width: 46.6%;
 		margin:0 10px 15px 0;
 	}
@@ -28,8 +28,22 @@
 	}
 }
 @media screen and (max-width: 768px) {
-	header nav {
+	header nav ul{
 		display: none;
+		float: none;
+	}
+	header nav  {
+		float: left;
+		width: 100%;
+		margin-top: 20px;
+		background: rgba(44, 62, 80,0.3);
+		
+	}
+	header nav ul li {
+		display: block;
+	}
+	#header nav .toggle-nav span {
+		display: inline-block;
 	}
 }
 @media screen and (max-width: 964px) {

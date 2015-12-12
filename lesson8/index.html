@@ -13,19 +13,24 @@
 <body>
 	<section id="header">
 		<div class="wrapper">
-			<header>
+			<header class="static">
 				<div><a href="#">UIBrash</a><span>.</span></div>
 				<nav>
-					<ul>
-						<li><a href="#main">Home</a></li>
+					<div id="toggle" class="toggle-nav">
+						<span class="fa fa-bars"></span>
+					</div>
+					<div class="for-mobile">
+					<ul id="menu" class="fixed-menu">
+						<li class="selected"><a href="#main">Home</a></li>
 						<li><a href="#about">About Us</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#services">Services</a></li>
 						<li><a href="#contact">Contact Us</a></li>
 					</ul>
+					</div>
 				</nav>
 			</header>
-			<div class="main">
+			<div id="main">
 				<h1>The ultimate collection of <span class="block">free psd templates</span></h1>
 				<a href="#" class="btn">Download</a>
 			</div>
@@ -232,7 +237,7 @@
 							<input  type="text" name="name" placeholder="Name...">
 						</div>
 						<div class="row">
-						<input type="email" name="email" placeholder="E-Mail...">
+							<input type="email" name="email" placeholder="E-Mail...">
 						</div>
 						<div>
 							<input type="text" name="subject" placeholder="Subject..." autocomplete="off" >
@@ -254,5 +259,8 @@
 			Copyright &copy; 2015 Ul Brash.
 		</div>
 	</footer><!-- section-footer -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/nav/navigation.js"></script>
+	<script src="js/nav/scroll.js"></script>
 </body>
 </html>
