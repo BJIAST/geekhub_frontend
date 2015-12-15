@@ -37,7 +37,6 @@ body {
 .left-sidebar {
 	width: 120px;
 	float: left;
-	overflow: hidden;
 }
 .description p {
 	font-size: 11px;
@@ -46,6 +45,7 @@ body {
 	padding-bottom:15px; 
 }
 .description img {
+	max-width: 100%;
 	width: 120px;
 	padding-bottom: 20px;
 	height: auto;
@@ -89,8 +89,9 @@ input[type="search"] {
 
 .content {
 	width: 500px;
-	float: left;
 	margin: 3px 20px;
+	display: inline-block;
+	overflow: hidden;
 
 }
 .futured-post li {
@@ -203,7 +204,7 @@ color: #000;
 }
 /*---------------- right-sidebar -----------------*/
 .right-sidebar {
-	float: left;
+	float:right;
 	width: 270px;
 }
 .social ul li {
