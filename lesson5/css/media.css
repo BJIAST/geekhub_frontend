@@ -10,6 +10,9 @@
 
 }
 @media screen and (max-width: 787px) {
+	.header,
+	 .main,
+	 .footer,
 	.left-sidebar,
 	.content,
 	.right-sidebar {
