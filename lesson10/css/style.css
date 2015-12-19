@@ -126,6 +126,7 @@ h2 {
 .about-image {
 	width:120px; 
 	float: left;
+	text-align: center;
 }
 .about-text {
 	overflow: hidden;
@@ -144,5 +145,5 @@ h2 {
 #about .image-get {
 position: absolute;
 top: 0;
-right: 70px;
+right: 0;
 }
