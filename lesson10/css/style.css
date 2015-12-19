@@ -34,6 +34,14 @@ h1 {
 p {
 	color: #848e97;
 }
+.social-links {
+	padding: 16px 84px;
+	font-size: 2.1rem;
+	line-height: 3.2rem;
+	color: #fff;
+	border-radius: 4px;
+
+}
 
 /*----------------------- main -----------*/
 
@@ -143,7 +151,134 @@ h2 {
 	margin-bottom: 40px;
 }
 #about .image-get {
-position: absolute;
-top: 0;
-right: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+
+/*------------ reviews --------*/
+
+
+#reviews .container {
+	margin-top: 76px;
+	margin-bottom: 76px;
+	text-align: center;
+}
+#reviews  .avatar {
+	width: 50%;
+	float: left;
+	text-align: right;
+	margin-right: 20px;
+
+}
+#reviews .row {
+	text-align: center;
+
+}
+#reviews .author {
+	text-align: left;
+	overflow: hidden;
+}
+.author h3 {
+	color: #635c73;
+	font-size: 2.4rem;
+	font-weight: 700;
+	line-height: 3.2rem;
+}
+.tw-head {
+	margin:0 auto;
+	width: 55%;
+	border-bottom: 1px solid #c7c7c7;
+
+}
+.tw-head p {
+	margin:80px 0 20px 0;
+	color: #333;
+	
+
+}
+.tw-head a{
+	color: #8d81ac;
+	font-size: 1.6rem;
+}
+.tw-head span {
+	color: #8d81ac;	
+	display: block;
+	margin-bottom: 60px;
+}
+.social {
+	margin:60px 0;
+}
+.social ul li {
+	display: inline-block;
+	position: relative;
+	margin-right: 44px;
+}
+.social ul li span{
+	position: absolute;
+	left:24px;
+	top: 3px;
+	font-size: 2.8rem;
+}
+
+.github {
+	color: #000;
+	background: #f3f3f3;
+}
+.github:hover {
+	background: #DEDEDE;
+}
+.twitter {
+	background-color: #26a6d1;
+}
+.twitter:hover {
+	background-color: #2A92B6;
+}
+.facebook {
+	background-color: #3b5998;
+}.facebook:hover {
+	background-color: #425680;
+}
+
+
+/*------------------fork--------*/
+
+
+#fork {
+	background: url(../images/bgfork.png) no-repeat;
+	background-size: cover;
+	background-position: 100% 50%;
+	text-align: center;
+}
+#fork .container {
+	padding: 60px 0;
+	border-bottom: 1px solid #c7c7c7;
+
+}
+#fork h1 {
+	font-size: 4.8rem;
+}
+#fork img {
+	margin: 40px 0;
+}
+#fork p {
+	color: #fff;
+	font-style:italic;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
+
+/*=-------------pricing----------*/
+
+
+#pricing {
+	background: url(../images/price-bg.png) no-repeat;
+	background-size: cover;
+	background-position: 100% 50%;
+}
+#peicing .container {
 }
