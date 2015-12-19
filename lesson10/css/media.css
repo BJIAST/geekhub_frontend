@@ -1,0 +1,19 @@
+@media screen and (min-width:767px) {
+	.top-nav {
+		text-align: right;
+	}
+	nav {
+		display: inline-block;
+		margin-right: 3.5rem;
+	}
+	nav ul li {
+		display: inline-block;
+		font-size: 1.6rem;
+	}
+	nav ul li a {
+		color: #635c73;
+		font-weight: 700;
+		line-height: 15px;
+		padding-right: 4.4rem;
+	}
+}

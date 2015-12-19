@@ -5,8 +5,8 @@ html {
 .container {
   margin-right: auto;
   margin-left: auto;
-	padding-right: 15px;
-	padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .container:before,
@@ -59,19 +59,20 @@ html {
 
 .xs-col-12 {
   width: 100%;
+  float: none;
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 750px;
-	  padding-right: 0;
-	  padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 
-	.row {
-		margin-right: 0;
-		margin-left: 0;
-	}
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
 
   .s-col-2,
   .s-col-3,
@@ -137,12 +138,4 @@ html {
   .l-col-6 {
     width: 50%;
   }
-
-	.l-pull-6 {
-		right: 50%;
-	}
-
-	.l-push-3 {
-		left: 25%;
-	}
 }

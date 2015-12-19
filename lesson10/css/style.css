@@ -1,0 +1,148 @@
+ul li{
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+}
+.btn {
+	background: #8d81ac;
+	border-radius: 19px;
+	color: #fff;
+	padding: 10px 36px;
+	font-size: 1.6rem;
+	line-height: 15px;
+	font-weight: 700;
+}
+.btn:hover {
+	background: #6B4FB3;
+	transition: .5s;
+
+}
+.container {
+	margin-top: 33px;
+	margin-bottom: 33px;
+}
+h1 {
+	font-size: 6rem;
+	font-weight: 700;
+	color: #fff;
+}
+p {
+	color: #848e97;
+}
+
+/*----------------------- main -----------*/
+
+
+#main {
+	background: url(../images/main.jpg) no-repeat;
+	background-size:cover;
+	background-position: 100% 50%; 
+	position: relative;
+
+}
+#main .container {
+	text-align: center;
+	padding-top:106px;
+	padding-bottom: 530px;
+}
+h1 {
+	font-size: 8.7rem;
+	margin-bottom: 50px;
+}
+h2 {
+	color: #8d81ac;
+	font-weight: 400;
+	line-height: 2rem;
+	font-size: 3rem;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 20px;
+}
+#main .container span {
+	font-weight: 400;
+	font-size: 1.6rem;
+	color: #848e97;
+	text-transform: uppercase;
+}
+#main .link {
+	text-align: center;
+	bottom: 22px;
+	width: 100%;
+	left:0;
+	bottom:-40px;
+	position: absolute;
+}
+.link .btn {
+	font-size: 2.1rem;
+	padding: 22px 68px;
+	border-radius: 33px;
+	display: inline-block;
+}
+.link span {
+	margin-top: 10px;
+	display: block;
+	color: #848e97;
+	font-weight: 400;
+	line-height: 1.5rem;
+}
+
+
+/*--------counter-------------*/
+
+#counter .container {
+	margin-top: 126px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+#counter h1 {
+	font-size: 5.6rem;
+	color: #635c73;
+	text-transform: uppercase;
+}
+#counter p {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	color: #323232;	
+}
+
+/*---------about---------*/
+#about {
+	background: #f4f4f4;
+	position: relative;
+}
+#about .container {
+	padding-top: 84px;
+	padding-bottom: 74px;
+}
+#about h1 {
+	font-size: 4rem;
+	color: #8d81ac;
+}
+.about-image {
+	width:120px; 
+	float: left;
+}
+.about-text {
+	overflow: hidden;
+}
+.about-text h3 {
+	font-size: 1.6rem;
+	color: #323232;
+	font-weight: 400;
+	line-height: 2.1rem;
+	margin-bottom: 10px;
+}
+
+#about .row {
+	margin-bottom: 40px;
+}
+#about .image-get {
+position: absolute;
+top: 0;
+right: 70px;
+}
