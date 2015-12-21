@@ -30,6 +30,12 @@ h1 {
 	font-size: 6rem;
 	font-weight: 700;
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+
+}
+h2 {
+	font-weight: 400;
+	color: #fff;
 }
 p {
 	color: #848e97;
@@ -58,13 +64,12 @@ p {
 	padding-top:106px;
 	padding-bottom: 530px;
 }
-h1 {
+#main h1 {
 	font-size: 8.7rem;
 	margin-bottom: 50px;
 }
-h2 {
+#main h2 {
 	color: #8d81ac;
-	font-weight: 400;
 	line-height: 2rem;
 	font-size: 3rem;
 	font-family: 'Lato', sans-serif;
@@ -190,7 +195,6 @@ h2 {
 .tw-head {
 	margin:0 auto;
 	width: 55%;
-	border-bottom: 1px solid #c7c7c7;
 
 }
 .tw-head p {
@@ -247,12 +251,14 @@ h2 {
 
 
 #fork {
-	background: url(../images/bgfork.png) no-repeat;
+	background: url(../images/bgfork.jpg) no-repeat;
 	background-size: cover;
 	background-position: 100% 50%;
 	text-align: center;
 }
 #fork .container {
+	margin-bottom: 0;
+	/*margin-top: 0;*/
 	padding: 60px 0;
 	border-bottom: 1px solid #c7c7c7;
 
@@ -280,5 +286,26 @@ h2 {
 	background-size: cover;
 	background-position: 100% 50%;
 }
-#peicing .container {
+#pricing .container {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	padding: 40px 0;
+}
+#pricing h1 {
+	font-size: 4.8rem;
+}
+
+#pricing .price:hover {
+	transform: scale(1.1);
+	transition: all .4s;
+
+}
+.price h2 {
+	background: rgba(255,255,255,0.06);
+	font-size: 2.4rem;
+	padding: 45px 33px 33px 33px;
+	text-transform: uppercase;
+
+
 }
