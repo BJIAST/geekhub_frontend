@@ -1,19 +1,60 @@
-@media screen and (min-width:767px) {
-	.top-nav {
+@media screen and (min-width:768px) {
+	header .top-nav {
 		text-align: right;
 	}
-	nav {
+	header	nav {
 		display: inline-block;
 		margin-right: 3.5rem;
 	}
-	nav ul li {
+	header	nav ul li {
 		display: inline-block;
 		font-size: 1.6rem;
 	}
-	nav ul li a {
+	header	nav ul li a {
 		color: #635c73;
 		font-weight: 700;
 		line-height: 15px;
 		padding-right: 4.4rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	
+	.xs-col-6 {
+		width: 100%;
+	}
+
+	header .top-nav {
+		text-align: right;
+	}
+	header	nav {
+		display: none;
+	}
+	header .btn {
+	}
+
+	#counter h1 {
+		font-size: 4.5rem;
+	}
+	
+	.about-text {
+		text-align: center;
+	}
+	#about h1 {
+		position: relative;
+		right: 0;
+	}
+	#about .image-get{
+		width: 100%;
+		position: relative;
+	}
+	#fork .xs-col-6 {
+		width: 60%;
+	}
+	
+	#subscribe, #subscribe form  {
+		margin-top: 20px;
+		text-align: center;
 	}
 }
