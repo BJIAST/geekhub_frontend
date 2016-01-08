@@ -6,9 +6,11 @@
 		display: inline-block;
 		margin-right: 3.5rem;
 	}
+	header nav ul {
+	}
 	header	nav ul li {
-		display: inline-block;
 		font-size: 1.6rem;
+		display: inline-block;
 	}
 	header	nav ul li a {
 		color: #635c73;
@@ -20,9 +22,14 @@
 
 @media screen and (max-width: 767px) {
 
-	
+	html {
+		font-size: 56%;
+	}
 	.xs-col-6 {
 		width: 100%;
+	}
+	.price {
+		width:45%;
 	}
 
 	header .top-nav {
@@ -33,15 +40,18 @@
 	}
 	header .btn {
 	}
-
 	#counter h1 {
 		font-size: 4.5rem;
 	}
-	
+	#counter p {
+		margin-top: 20px;
+		width: 100%;
+	}
+
 	.about-text {
 		text-align: center;
 	}
-	#about h1 {
+		#about h1 {
 		position: relative;
 		right: 0;
 	}
@@ -50,11 +60,33 @@
 		position: relative;
 	}
 	#fork .xs-col-6 {
-		width: 60%;
+		width: 100%;
 	}
 	
 	#subscribe, #subscribe form  {
 		margin-top: 20px;
 		text-align: center;
 	}
+	#reviews .tw-head {
+		width: 100%;
+	}
+	#reviews .social {
+		width: 50%;
+		margin: 0 auto;
+	}
+	#reviews .social li {
+		margin:30px 0;
+	}
+	#pricing p {
+		width: 100%;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 486px) {
+
+}
+@media screen and (min-width: 768px) and (max-width:965px) {
+header nav ul li{
+	font-size: 1rem;
+}
 }

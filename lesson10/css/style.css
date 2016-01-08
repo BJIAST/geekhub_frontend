@@ -49,7 +49,17 @@ p {
 	line-height: 3.2rem;
 	color: #fff;
 	border-radius: 4px;
-
+}
+.social ul li:last-child a{
+	padding: 16px 70px;
+}
+.social ul li .followers {
+	display: block;
+	color: #849e97;
+	font-size: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 3.2rem;
+	margin: 40px 0 0 50px;
 }
 header .container {
 	margin-top: 33px;
@@ -133,6 +143,8 @@ header .btn {
 	margin: 0 auto;
 	margin-bottom: 30px;
 	color: #323232;	
+	font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 /*---------about---------*/
@@ -322,7 +334,7 @@ header .btn {
 }
 
 #pricing .row {
-	margin-top: 120px;
+	margin: 80px auto 10px;
 	max-width: 100%;
 }
 .price-check {
