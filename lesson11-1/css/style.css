@@ -1,0 +1,35 @@
+body {
+  font-family: "Lato", sans-serif; }
+
+header .container {
+  padding: 3.6rem 1rem; }
+
+nav {
+  margin: 10px 0; }
+  nav ul li {
+    display: inline-block;
+    text-transform: uppercase; }
+    nav ul li a {
+      color: #333;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 0 1rem; }
+      nav ul li a:hover, nav ul li a:focus {
+        text-decoration: none;
+        color: #333;
+        padding-bottom: 1.2rem;
+        border-bottom: 0.5rem solid #ffca26; }
+
+#welcome {
+  background: url(../images/welcome.jpg) no-repeat;
+  background-size: cover;
+  background-position: 80% 70%; }
+  #welcome .container {
+    padding: 22rem 0 38rem; }
+    #welcome .container h1 {
+      color: #fc3;
+      text-transform: uppercase;
+      font-size: 4rem;
+      font-weight: 900; }
+
+/*# sourceMappingURL=style.css.map */

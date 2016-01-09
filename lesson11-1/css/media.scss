@@ -1,0 +1,37 @@
+$container-width: 942px;
+
+@media screen and (max-width: 767px) {
+	html {
+		font-size:56%;
+	}
+	header {
+		nav {
+			display: none;
+		}
+	}
+}
+
+@media screen and (min-width:768px) {
+	html {
+		font-size:50.5%;
+	}
+	.container {
+		width: $container-width - $container-width / 100 * 26;
+	}	
+}
+@media screen and (min-width:992px) {
+	html {
+		font-size:58.5%;
+	}
+	.container {
+		width: $container-width - $container-width / 100 * 16;
+	}
+}
+@media screen and (min-width:1200px) {
+		html {
+		font-size:62.5%;
+	}
+	.container {
+		width: $container-width;
+	}
+}
