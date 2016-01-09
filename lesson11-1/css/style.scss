@@ -5,7 +5,50 @@ $main-font: 'Lato', sans-serif;
 body {
 	font-family: $main-font;
 }
+p {
+	font-weight: 400;
+	font-size: 2.2rem;
+	color: #fff;
+}
 
+h1 {
+	font-size: 3rem;
+	line-height: 3rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #333;
+}
+h2 {
+	font-size: 2.2rem;
+	color: #999;
+	font-style: italic;
+	line-height: 3rem;
+}
+.orange {
+	font-weight: 700;
+	color: #fc3;
+}
+
+.section-title {
+	position: relative;
+	
+	.title-column{
+		padding-bottom: 4rem;
+		border-bottom: 1px solid #ccc;
+
+		&:after {
+			position: absolute;
+			display: inline-block;
+			content: '';
+			left: 45.6%;
+			top: 12rem;
+			border-bottom: 1px solid #fff;
+			height: 6rem;
+			width: 6rem;
+			background-image: url("../images/mini-logo.png");
+		}
+	}
+}
 
 // ========== HEADER NAV ==============
 
@@ -31,7 +74,7 @@ nav {
 					text-decoration: none;
 					color: #333;
 					padding-bottom: 1.2rem;
-					border-bottom:0.5rem solid #ffca26
+					border-bottom:0.5rem solid #ffca26;
 				}
 			}
 
@@ -47,7 +90,7 @@ nav {
 	background-size:cover;
 	background-position: 80% 70%;
 	.container {
-		padding: 22rem 0 38rem;
+		padding: 22rem 0 22.8rem;
 
 		h1 {
 			color: #fc3;
@@ -55,5 +98,44 @@ nav {
 			font-size: 4rem;
 			font-weight: 900;
 		}
+		p {
+			margin-bottom: 13.2rem;
+		}
+		a {
+			font-size: 2.2rem;
+			text-transform: uppercase;
+			color: #fff;
+
+			&:hover, &:focus {
+				text-decoration: none;
+				border-bottom:0.5rem solid #ffca26;
+				padding-bottom: 3rem;
+			}
+		}
 	}
 }
+
+// =========== ETHANOL ===============
+
+
+#ethanol {
+	background-color: #ffca26;
+
+	.container {
+		padding: 12rem 0;
+
+		p {
+			margin-top: 4.8rem;
+		}
+	}
+}
+
+// =========== DOING ===============
+
+#doing {
+	.container {
+		padding: 16.2rem 0;
+	}
+	
+}	
+

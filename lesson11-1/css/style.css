@@ -1,6 +1,44 @@
 body {
   font-family: "Lato", sans-serif; }
 
+p {
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #fff; }
+
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #333; }
+
+h2 {
+  font-size: 2.2rem;
+  color: #999;
+  font-style: italic;
+  line-height: 3rem; }
+
+.orange {
+  font-weight: 700;
+  color: #fc3; }
+
+.section-title {
+  position: relative; }
+  .section-title .title-column {
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #ccc; }
+    .section-title .title-column:after {
+      position: absolute;
+      display: inline-block;
+      content: '';
+      left: 45.6%;
+      top: 12rem;
+      border-bottom: 1px solid #fff;
+      height: 6rem;
+      width: 6rem;
+      background-image: url("../images/mini-logo.png"); }
+
 header .container {
   padding: 3.6rem 1rem; }
 
@@ -25,11 +63,31 @@ nav {
   background-size: cover;
   background-position: 80% 70%; }
   #welcome .container {
-    padding: 22rem 0 38rem; }
+    padding: 22rem 0 22.8rem; }
     #welcome .container h1 {
       color: #fc3;
       text-transform: uppercase;
       font-size: 4rem;
       font-weight: 900; }
+    #welcome .container p {
+      margin-bottom: 13.2rem; }
+    #welcome .container a {
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      color: #fff; }
+      #welcome .container a:hover, #welcome .container a:focus {
+        text-decoration: none;
+        border-bottom: 0.5rem solid #ffca26;
+        padding-bottom: 3rem; }
+
+#ethanol {
+  background-color: #ffca26; }
+  #ethanol .container {
+    padding: 12rem 0; }
+    #ethanol .container p {
+      margin-top: 4.8rem; }
+
+#doing .container {
+  padding: 16.2rem 0; }
 
 /*# sourceMappingURL=style.css.map */
