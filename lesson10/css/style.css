@@ -339,7 +339,7 @@ header .btn {
 }
 .price-check {
 	background: rgba(255,255,255,0.11);
-	overflow: hidden;
+	/*overflow: hidden;*/
 	box-sizing:border-box;
 }
 

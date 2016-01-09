@@ -1,4 +1,7 @@
 @media screen and (min-width:768px) {
+	html {
+		font-size: 56%;
+	}
 	header .top-nav {
 		text-align: right;
 	}
@@ -47,11 +50,18 @@
 		margin-top: 20px;
 		width: 100%;
 	}
-
-	.about-text {
-		text-align: center;
+	#fork .xs-col-6 {
+		width: 96%;
 	}
-		#about h1 {
+
+	.about-image {
+		float: left;
+	}
+	.about-text {
+		text-align: left;
+		overflow: hidden;
+	}
+	#about h1 {
 		position: relative;
 		right: 0;
 	}
@@ -59,20 +69,12 @@
 		width: 100%;
 		position: relative;
 	}
-	#fork .xs-col-6 {
-		width: 100%;
-	}
-	
 	#subscribe, #subscribe form  {
 		margin-top: 20px;
 		text-align: center;
 	}
 	#reviews .tw-head {
 		width: 100%;
-	}
-	#reviews .social {
-	/*	width: 50%;
-		margin: 0 auto;*/
 	}
 	#reviews .social li {
 		margin:30px 0;
@@ -81,12 +83,27 @@
 		width: 100%;
 		text-align: center;
 	}
+	#info .info-post {
+		text-align: center;
+	}
+	#info .info-text {
+		margin-bottom: 40px;
+	}
+	#footer .foot-info {
+		margin-bottom: 40px;
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 486px) {
+	.price {
+		float: none;
+		width: 80%;
+		display: block;
+		margin: 40px auto;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:979px) {
 
-}
-@media screen and (min-width: 768px) and (max-width:965px) {
-header nav ul li{
-	font-size: 1rem;
-}
+	html {
+		font-size: 40%;
+	}
 }
