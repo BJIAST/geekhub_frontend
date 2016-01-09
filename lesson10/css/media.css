@@ -41,7 +41,7 @@
 	header .btn {
 	}
 	#counter h1 {
-		font-size: 4.5rem;
+		font-size: 3.6rem;
 	}
 	#counter p {
 		margin-top: 20px;
@@ -71,8 +71,8 @@
 		width: 100%;
 	}
 	#reviews .social {
-		width: 50%;
-		margin: 0 auto;
+	/*	width: 50%;
+		margin: 0 auto;*/
 	}
 	#reviews .social li {
 		margin:30px 0;
