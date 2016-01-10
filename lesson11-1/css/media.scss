@@ -13,6 +13,19 @@ $container-width: 942px;
 			display: none;
 		}
 	}
+	#doing {
+		.list-col {
+			.col {
+				text-align: left;
+				.col-img-r {
+					float: left;
+					padding-right: 1.4rem;
+					padding-left: 0;
+				}
+				
+			}
+		}
+	}
 }
 
 @media screen and (min-width:768px) {
