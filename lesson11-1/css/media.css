@@ -7,7 +7,14 @@
     font-size: 56%; }
 
   header nav {
-    display: none; } }
+    display: none; }
+
+  #doing .list-col .col {
+    text-align: left; }
+    #doing .list-col .col .col-img-r {
+      float: left;
+      padding-right: 1.4rem;
+      padding-left: 0; } }
 @media screen and (min-width: 768px) {
   html {
     font-size: 50.5%; }
