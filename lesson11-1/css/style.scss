@@ -2,6 +2,13 @@
 
 $main-font: 'Lato', sans-serif;
 
+
+@mixin box-shadow($radius,$color1,$color2,$color3,$opacity){
+	-webkit-box-shadow: $radius rgba($color1,$color2,$color3,$opacity);
+	-moz-box-shadow:    $radius rgba($color1,$color2,$color3,$opacity);
+	box-shadow:         $radius rgba($color1,$color2,$color3,$opacity);
+}
+
 body {
 	font-family: $main-font;
 }
@@ -47,6 +54,38 @@ h2 {
 			height: 60px;
 			width: 60px;
 			background-image: url("../images/mini-logo.png");
+		}
+	}
+}
+.social-links {
+	li{
+		display: inline-block;
+		position: relative;
+
+		&:after {
+			content:"";
+			position: absolute;
+			left: 0;
+			top: 0;
+			margin-bottom: 40px;
+		}
+
+		a{
+			color: #fff;
+			background-color: #ffca26;
+			font-size: 4.1rem;
+			width: 6.7rem;
+			height: 6.7rem;
+			padding-top: 1.4rem;
+
+
+			&:hover,&:focus {
+				text-decoration: none;
+				transition: .8s all;
+				background: #fff;
+				color: #ffca26;
+				@include box-shadow(1px 2px 30px 0px,57, 50, 50, 0.85);
+			}
 		}
 	}
 }
@@ -141,7 +180,14 @@ nav {
 	.list-col {
 
 		.col {
+
 			margin-bottom: 4rem;
+
+			&:hover, &:focus {
+				@include box-shadow(2px 4px 8px 0px,57, 50, 50, 0.51);
+				transition: .4s all;
+			}
+
 			.col-img-r {
 				display: block;
 				float: right;
@@ -177,6 +223,8 @@ nav {
 		width: 100%;
 		background-color: #f3f3f3;
 		.prof-img{
+			position: relative;
+
 			img {
 				max-width: 100%;
 				margin-bottom: 4rem;

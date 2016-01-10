@@ -39,6 +39,31 @@ h2 {
       width: 60px;
       background-image: url("../images/mini-logo.png"); }
 
+.social-links li {
+  display: inline-block;
+  position: relative; }
+  .social-links li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-bottom: 40px; }
+  .social-links li a {
+    color: #fff;
+    background-color: #ffca26;
+    font-size: 4.1rem;
+    width: 6.7rem;
+    height: 6.7rem;
+    padding-top: 1.4rem; }
+    .social-links li a:hover, .social-links li a:focus {
+      text-decoration: none;
+      transition: .8s all;
+      background: #fff;
+      color: #ffca26;
+      -webkit-box-shadow: 1px 2px 30px 0px rgba(57, 50, 50, 0.85);
+      -moz-box-shadow: 1px 2px 30px 0px rgba(57, 50, 50, 0.85);
+      box-shadow: 1px 2px 30px 0px rgba(57, 50, 50, 0.85); }
+
 header .container {
   padding: 3.6rem 1rem; }
 
@@ -91,6 +116,11 @@ nav {
   padding: 14.2rem 0; }
 #doing .list-col .col {
   margin-bottom: 4rem; }
+  #doing .list-col .col:hover, #doing .list-col .col:focus {
+    -webkit-box-shadow: 2px 4px 8px 0px rgba(57, 50, 50, 0.51);
+    -moz-box-shadow: 2px 4px 8px 0px rgba(57, 50, 50, 0.51);
+    box-shadow: 2px 4px 8px 0px rgba(57, 50, 50, 0.51);
+    transition: .4s all; }
   #doing .list-col .col .col-img-r {
     display: block;
     float: right;
@@ -112,17 +142,19 @@ nav {
 #prof .prof {
   width: 100%;
   background-color: #f3f3f3; }
-  #prof .prof .prof-img img {
-    max-width: 100%;
-    margin-bottom: 4rem; }
-  #prof .prof .prof-img p {
-    font-size: 2.9rem;
-    color: #333;
-    line-height: 3.6rem;
-    width: 60%;
-    margin: 0 auto; }
-    #prof .prof .prof-img p span {
-      font-size: 3.7rem;
-      font-weight: 700; }
+  #prof .prof .prof-img {
+    position: relative; }
+    #prof .prof .prof-img img {
+      max-width: 100%;
+      margin-bottom: 4rem; }
+    #prof .prof .prof-img p {
+      font-size: 2.9rem;
+      color: #333;
+      line-height: 3.6rem;
+      width: 60%;
+      margin: 0 auto; }
+      #prof .prof .prof-img p span {
+        font-size: 3.7rem;
+        font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
