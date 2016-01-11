@@ -58,18 +58,11 @@ h2 {
 	}
 }
 .social-links {
+
 	li{
 		display: inline-block;
-		position: relative;
-
-		&:after {
-			content:"";
-			position: absolute;
-			left: 0;
-			top: 0;
-			margin-bottom: 40px;
-		}
-
+		width: 67px;
+		height: 67px;
 		a{
 			color: #fff;
 			background-color: #ffca26;
@@ -81,10 +74,9 @@ h2 {
 
 			&:hover,&:focus {
 				text-decoration: none;
-				transition: .8s all;
+				transition: .3s all;
 				background: #fff;
 				color: #ffca26;
-				@include box-shadow(1px 2px 30px 0px,57, 50, 50, 0.85);
 			}
 		}
 	}
@@ -137,6 +129,7 @@ nav {
 			text-transform: uppercase;
 			font-size: 4rem;
 			font-weight: 900;
+			line-height: 3.8rem;
 		}
 		p {
 			margin-bottom: 13.2rem;
@@ -222,12 +215,21 @@ nav {
 	.prof {
 		width: 100%;
 		background-color: #f3f3f3;
-		.prof-img{
-			position: relative;
 
-			img {
-				max-width: 100%;
-				margin-bottom: 4rem;
+		.prof-img{
+			.img {
+				position: relative;
+				background: url("../images/professional.jpg") no-repeat;
+				height: 49.7rem;
+			}
+			.social-links {
+				position: absolute;
+				left:16%;
+				bottom: 0;
+				margin-bottom: 0;
+				li{
+					margin-right: 0.4rem;
+				}
 			}
 			p {
 				font-size: 2.9rem;
@@ -242,6 +244,79 @@ nav {
 				}
 			}
 		}
-	}
 
+		.prof-text {
+			margin-top: 4rem;
+			
+			h3 {
+				font-size:2.4rem;
+				font-weight: 700;
+				line-height: 3rem;
+			}
+			p,h4{
+				font-size:1.4rem;
+				color:#999;
+			}
+			p {
+				margin: 4rem 0;
+			}
+			.progress {
+				background: #999;
+				border-radius:0;
+				height: 1.2rem;
+
+				&-bar {
+					background-color: #ffca26;
+				}
+				&:hover,&:focus {
+					@include box-shadow(2px 4px 8px 0px,57, 50, 50, 0.51);
+					transition: .4s all;
+				}
+			}
+		}
+		.stat {
+			margin-top: 6rem;
+			border-top: 1px solid #ccc;
+			width: 100%;
+			.stat-col {
+				border: 1px solid #ccc;
+				border-top: 0;
+				height: 27rem;
+				padding: 6rem 0;
+
+				&:hover,&:focus {
+					@include box-shadow(2px 4px 8px 0px,57, 50, 50, 0.51);
+					transition: .4s all;
+				}
+
+				span {
+					font-style: italic;
+					color: #999;
+					font-size: 1.6rem;
+				}
+				.num {
+					display: block;
+					color: #333;
+					font-style: normal;
+					font-size: 2.6rem;
+					font-weight: 700;
+				}
+			}
+			i {
+				display:block;
+				color: #fc3;
+				font-size: 7rem;
+				padding-bottom: 4rem;
+			}
+		}
+	}
+}
+
+
+// ============= TEAMCSS ===========
+
+#team {
+	.container {
+		padding: 20rem 0 4rem;
+	}
 }

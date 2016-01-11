@@ -12,7 +12,7 @@ $container-width: 942px;
 		nav {
 			display: none;
 		}
-	}
+	} 
 	#doing {
 		.list-col {
 			.col {
@@ -24,6 +24,12 @@ $container-width: 942px;
 				}
 				
 			}
+		}
+	}
+	#prof {
+		.img {
+			margin: 0 auto;
+			margin-bottom: 2rem;
 		}
 	}
 }

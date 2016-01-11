@@ -14,7 +14,11 @@
     #doing .list-col .col .col-img-r {
       float: left;
       padding-right: 1.4rem;
-      padding-left: 0; } }
+      padding-left: 0; }
+
+  #prof .img {
+    margin: 0 auto;
+    margin-bottom: 2rem; } }
 @media screen and (min-width: 768px) {
   html {
     font-size: 50.5%; }
