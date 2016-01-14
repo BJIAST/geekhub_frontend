@@ -209,5 +209,26 @@ nav {
 
 #team .cont-title {
   padding: 20rem 0 0 0; }
+#team ol li {
+  background-color: #f2f2f2;
+  width: 1.7rem;
+  height: 1.7rem; }
+  #team ol li.active {
+    background-color: #bababa; }
+#team .team .teammate h3 {
+  color: #333;
+  font-size: 3rem; }
+#team .team .teammate span {
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 1.4rem; }
+#team .team .teammate .social-links li {
+  height: 3.9rem;
+  width: 3.9rem; }
+  #team .team .teammate .social-links li a {
+    font-size: 2.4rem;
+    margin-right: 0; }
+#team .team .tm2 {
+  padding-top: 1.3rem; }
 
 /*# sourceMappingURL=style.css.map */
