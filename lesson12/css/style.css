@@ -1,0 +1,52 @@
+body {
+  background-color: #e4edff; }
+
+header {
+  height: 200px; }
+
+#output {
+  margin-bottom: 6rem; }
+  #output input[type="text"] {
+    width: 90%;
+    line-height: 3.6rem;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #016d42;
+    background-color: #bdd4fe;
+    border: 0;
+    outline: none; }
+    #output input[type="text"].allRes {
+      background-color: #e4edff; }
+  #output .delete {
+    font-size: 2.4rem;
+    margin: 0 10px;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    border-radius: 44px; }
+    #output .delete:hover, #output .delete:focus {
+      transition: .6s;
+      cursor: pointer;
+      -moz-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -o-transform: rotate(90deg); }
+
+#buttons .row .btn {
+  background-color: #fff;
+  width: 80%;
+  height: 50px;
+  margin: 20px 0;
+  font-size: 2.6rem;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px 15px 8px -4px rgba(45, 50, 50, 0.73);
+  -moz-box-shadow: -1px 15px 8px -4px rgba(45, 50, 50, 0.73);
+  box-shadow: -1px 15px 8px -4px rgba(45, 50, 50, 0.73);
+  outline: none; }
+  #buttons .row .btn:hover, #buttons .row .btn:focus {
+    background-color: #aeaeae;
+    box-shadow: inset 0px 11px 9px -4px rgba(255, 255, 255, 0.73); }
+
+/*# sourceMappingURL=style.css.map */
