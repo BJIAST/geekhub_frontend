@@ -1,17 +1,17 @@
 // navigation
 $(document).ready(function(){
 
-        var $menu = $("#header");
+        var $menu = $("header");
 
         $(window).scroll(function(){
-          if ($(window).width() >= 960) {
-            if ( $(this).scrollTop() > 1000 && $menu.hasClass("static") ){
+          if ($(window).width() >= 320) {
+            if ( $(this).scrollTop() > 570 && $menu.hasClass("static") ){
                 $menu.fadeOut('fast',function(){
                     $(this).removeClass("static")
                            .addClass("fixed")
                            .fadeIn('slow');
                 });
-            } else if($(this).scrollTop() < 1000 && $menu.hasClass("fixed")) {
+            } else if($(this).scrollTop() < 560 && $menu.hasClass("fixed")) {
                 $menu.fadeOut('fast',function(){
                     $(this).removeClass("fixed")
                            .addClass("static")
@@ -21,7 +21,6 @@ $(document).ready(function(){
           }
         });
 });
-
 
 // highlight effect for navigation
  var topRange      = 200,  // measure from the top of the viewport to X pixels down
@@ -42,7 +41,11 @@ $(document).ready(function(){
  $('#menu').find('a').each(function(){
   contentTop.push( $( $(this).attr('href') ).offset().top );
  })
-
+ // TOGGLE MOBILE MENU
+  $( "#toggle" ).click(function() {
+    $( "#menu" ).fadeToggle( "fast" );
+  });
+  
  // Animate menu scroll to content
   $('#menu').find('a').click(function(){
    var sel = this,

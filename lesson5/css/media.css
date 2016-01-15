@@ -1,0 +1,38 @@
+@media screen and (min-width: 360px) and (max-width: 479px) {
+	.rside-left {
+		float: none;
+		margin: 10px 0;
+		width: 100%;
+	}
+
+}
+@media screen and (min-width: 480px) and (max-width: 787px) {
+
+}
+@media screen and (max-width: 787px) {
+	.header,
+	 .main,
+	 .footer,
+	.left-sidebar,
+	.content,
+	.right-sidebar {
+		width: 100%;
+	}
+	input[type="search"] {
+		width: 100%;
+		margin: 10px 0;
+	}
+	.social ul li {
+		float: none;
+		display: inline-block;
+	}
+	.right-sidebar {
+		margin: 15px 0;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 1000px)  {
+	.main {
+		width: 100%;
+	}
+}

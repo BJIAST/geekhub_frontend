@@ -1,0 +1,109 @@
+@media screen and (min-width:768px) {
+	html {
+		font-size: 56%;
+	}
+	header .top-nav {
+		text-align: right;
+	}
+	header	nav {
+		display: inline-block;
+		margin-right: 3.5rem;
+	}
+	header nav ul {
+	}
+	header	nav ul li {
+		font-size: 1.6rem;
+		display: inline-block;
+	}
+	header	nav ul li a {
+		color: #635c73;
+		font-weight: 700;
+		line-height: 15px;
+		padding-right: 4.4rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	html {
+		font-size: 56%;
+	}
+	.xs-col-6 {
+		width: 100%;
+	}
+	.price {
+		width:45%;
+	}
+
+	header .top-nav {
+		text-align: right;
+	}
+	header	nav {
+		display: none;
+	}
+	header .btn {
+	}
+	#counter h1 {
+		font-size: 3.6rem;
+	}
+	#counter p {
+		margin-top: 20px;
+		width: 100%;
+	}
+	#fork .xs-col-6 {
+		width: 96%;
+	}
+
+	.about-image {
+		float: left;
+	}
+	.about-text {
+		text-align: left;
+		overflow: hidden;
+	}
+	#about h1 {
+		position: relative;
+		right: 0;
+	}
+	#about .image-get{
+		width: 100%;
+		position: relative;
+	}
+	#subscribe, #subscribe form  {
+		margin-top: 20px;
+		text-align: center;
+	}
+	#reviews .tw-head {
+		width: 100%;
+	}
+	#reviews .social li {
+		margin:30px 0;
+	}
+	#pricing p {
+		width: 100%;
+		text-align: center;
+	}
+	#info .info-post {
+		text-align: center;
+	}
+	#info .info-text {
+		margin-bottom: 40px;
+	}
+	#footer .foot-info {
+		margin-bottom: 40px;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 486px) {
+	.price {
+		float: none;
+		width: 80%;
+		display: block;
+		margin: 40px auto;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:979px) {
+
+	html {
+		font-size: 40%;
+	}
+}
