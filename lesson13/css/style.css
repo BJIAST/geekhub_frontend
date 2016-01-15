@@ -1,9 +1,6 @@
 body {
   background-color: #e4edff; }
 
-header {
-  height: 200px; }
-
 #output {
   margin-bottom: 6rem; }
   #output input[type="text"] {

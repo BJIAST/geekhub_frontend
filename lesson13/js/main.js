@@ -1,17 +1,24 @@
-var obj,allRes;
-var symbol;
-var x = 0,y = 0;
+var obj,allRes,
+    symbol,
+    x, y,
+    intx,inty;
+
+
 
 function funWrite(char) {
     obj = document.getElementById("field")
       obj.value = obj.value + char;
 }
 
+
 function funOperator (del,plus,minus,multipl) {
      x = obj.value;
+    allRes = document.getElementById("allRes");
+
     if (del == true) {
         symbol = "/";
         obj.value = "";
+
     }else if (plus == true) {
         symbol = "+";
         obj.value = "";
@@ -25,26 +32,29 @@ function funOperator (del,plus,minus,multipl) {
         obj.value = "";
 
     }
+    allRes.value = x+symbol;
+
 }
 
 
 
 function funAction() {
     var result;
-    allRes = document.getElementById("allRes")
     y = obj.value;
+    intx = parseInt(x,10);
+    inty = parseInt(y,10);
     if (symbol == "/") {
-         result = x / y;
-        allRes.value = x +"/"+y+"="+result;
+         result = intx / inty;
+        allRes.value = intx +"/"+inty+"="+result;
     }else if (symbol == "+"){
-        result = x + y;
-        allRes.value = x +"+"+y+"="+result;
+        result = intx + inty;
+        allRes.value = intx +"+"+inty+"="+result;
     }else if (symbol == "-"){
-        result = x - y;
-        allRes.value = x +"-"+y+"="+result;
+        result = intx - y;
+        allRes.value = intx +"-"+inty+"="+result;
     }else if (symbol == "*"){
-        result = x * y;
-        allRes.value = x +"*"+y+"="+result;
+        result = intx * inty;
+        allRes.value = intx +"*"+inty+"="+result;
     }
     obj.value = result;
 }
