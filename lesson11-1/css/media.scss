@@ -12,7 +12,7 @@ $container-width: 942px;
 		nav {
 			display: none;
 		}
-	} 
+	}
 	#doing {
 		.list-col {
 			.col {
@@ -22,7 +22,7 @@ $container-width: 942px;
 					padding-right: 1.4rem;
 					padding-left: 0;
 				}
-				
+
 			}
 		}
 	}
@@ -32,6 +32,16 @@ $container-width: 942px;
 			margin-bottom: 2rem;
 		}
 	}
+
+	#communication {
+		.communication {
+			.info {
+				margin-top:4rem;
+				text-align: center;
+			}
+		}
+	}
+
 }
 
 @media screen and (min-width:768px) {
@@ -40,7 +50,7 @@ $container-width: 942px;
 	}
 	.container {
 		width: $container-width - $container-width / 100 * 26;
-	}	
+	}
 }
 @media screen and (min-width:992px) {
 	html {
