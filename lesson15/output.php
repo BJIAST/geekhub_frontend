@@ -12,7 +12,7 @@ $level = $dateNow-$birthday;
 if ($sex = 1){
     $sex = "Мужчина";
 }else {
-    $sex[2] = "Женщина";
+    $sex = "Женщина";
 }
 ?>
 
