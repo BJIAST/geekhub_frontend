@@ -1,0 +1,38 @@
+body{
+  background-color: #f3f3f3;
+  margin-top:4%;
+
+  h1 {
+    margin-bottom:4%;
+  }
+.output{
+
+  h3{
+    margin-top:0;
+    margin-bottom:8%;
+    padding-bottom:0.88%;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  #link-wrong {
+    float: right;
+    text-decoration: underline;
+  }
+  .link {
+    cursor: pointer;
+  }
+}
+  .fin-links{
+    ul{
+      li{
+        list-style-type: none;
+        display: inline-block;
+        margin-right:10rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 990px){
+  .output{
+    margin-top:10%;
+  }
+}
